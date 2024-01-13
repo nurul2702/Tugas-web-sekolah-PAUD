@@ -17,7 +17,23 @@ header {
 
 }
 
+.login-btn, .register-btn {
+    margin: 0 5px;
+    background-color: #45a049;
+    padding: 8px;
+    border-radius: 1em;
+    text-decoration: none;
+    color: white;
+}
+
+.register-btn {
+    background-color: #3498db;
+}
+
 nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #333;
     height: 50%;
     color: #fff;
@@ -42,6 +58,15 @@ nav ul li a{
     text-decoration: none;
     color: white;
     font-weight: bold;
+}
+
+.login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #3498db;
+    width: 100%;
 }
 
 .container {

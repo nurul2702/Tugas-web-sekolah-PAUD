@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PAUD MUTIARA</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../styles/style.css">
     <style>
     body {
     font-family: Arial, sans-serif;
@@ -28,122 +28,115 @@
 </head>
 <body>
     <header> 
-        <img src="img_logo_paud.png" class="image"> 
+        <img src="../images/img_logo_paud.png" class="image"> 
         <h3>PAUD MUTIARA</h3>
         <p>Pendidikan Anak Usia Dini</p>
     </header>
-    <nav>
-        <ul>
-            <li><a href="index.html">Beranda</a></li>
-            <li><a href="galeri.html">Galeri</a></li>
-            <li><a href="fasilitas.html">fasilitas</a></li>
-            <li><a href="kontak.html">Kontak</a></li>
-        </ul>
-    </nav>
+    <?php include('../components/navbar.php');?>
     <div class="slideshow-container">
         <div class="mySlides fade">
-            <img src="img paud.jpeg" style="width:100%">
+            <img src="../images/img paud.jpeg" style="width:100%">
             <h3 align="center">Kegiatan PAUD MUTIARA</h3>
         </div>
 
         <div class="mySlides fade">
-            <img src="kerajinan alam.jpeg" style="width:100%">
+            <img src="../images/kerajinan alam.jpeg" style="width:100%">
             <h3 align="center">Kreasi Kerajinan alam</h3>
         </div>
 
         <div class="mySlides fade">
-            <img src="Makan bersama.jpeg" style="width:100%">
+            <img src="../images/Makan bersama.jpeg" style="width:100%">
             <h3 align="center">kegiatan makan bersama</h3>
         </div>
         <div class="mySlides fade">
-            <img src="manasik haji.jpeg" style="width: 100%;">
+            <img src="../images/manasik haji.jpeg" style="width: 100%;">
             <h3 align="center">Praktik Manasik Haji</h3>
         </div>
         <div class="mySlides fade">
-            <img src="ruang baca.jpeg" style="width: 100%;">
+            <img src="../images/ruang baca.jpeg" style="width: 100%;">
             <h3 align="center">Kegiatan Literasi</h3>
         </div>
         <div class="mySlides fade">
-            <img src="menggambar.jpeg" style="width: 100%;">
+            <img src="../images/menggambar.jpeg" style="width: 100%;">
             <h3 align="center">Kegiatan menggambar</h3>
         </div>
         <div class="mySlides fade">
-            <img src="KBM2.jpeg" style="width: 100%;">
+            <img src="../images/KBM2.jpeg" style="width: 100%;">
             <h3 align="center">Kegiatan Belajar kelas</h3>
         </div>
         <div class="mySlides fade">
-            <img src="ruang baca.jpeg" style="width: 100%;">
+            <img src="../images/ruang baca.jpeg" style="width: 100%;">
             <h3 align="center">Kegiatan Literasi</h3>
         </div>
         <div class="mySlides fade">
-            <img src="perayaan acara.jpeg" style="width: 100%;">
+            <img src="../images/perayaan acara.jpeg" style="width: 100%;">
             <h3 align="center">Kegiatan acara kelas</h3>
         </div>
         <div class="mySlides fade">
-            <img src="KBM.jpeg" style="width: 100%;">
+            <img src="../images/KBM.jpeg" style="width: 100%;">
             <h3 align="center">Kegiatan Belajar</h3>
         </div>
         <div class="mySlides fade">
-            <img src="game paud.jpeg" style="width: 100%;">
+            <img src="../images/game paud.jpeg" style="width: 100%;">
             <h3 align="center">Kegiatan game kelas</h3>
         </div>
         <div class="mySlides fade">
-            <img src="ruang bermain.jpeg" style="width: 100%;">
+            <img src="../images/ruang bermain.jpeg" style="width: 100%;">
             <h3 align="center">Kegiatan game kelas</h3>
         </div>
          </div>
         <div class="mySlides fade">
             <center>
-            <img src="berkebun.jpeg" style="width: 50%; ">
+            <img src="../images/berkebun.jpeg" style="width: 50%; ">
             <h3 align="center">Kegiatan berkebun</h3>
             </center>
         </div>
        
         <div class="mySlides fade">
             <center>
-             <img src="Diskusi.jpeg" style="width: 50%;">
+             <img src="../images/Diskusi.jpeg" style="width: 50%;">
              <h3 align="center">Kegiatan Diskusi</h3>
             </center>
         </div>
         <div class="mySlides fade">
             <center>
-            <img src="story telling.jpeg" style="width: 50%;">
+            <img src="../images/story telling.jpeg" style="width: 50%;">
             <h3 align="center">Kegiatan Story Telling</h3>
             </center>
         </div>
         <div class="mySlides fade">
             <center>
-            <img src="chef.jpeg" style="width: 50%;">
+            <img src="../images/chef.jpeg" style="width: 50%;">
             <h3 align="center">Kegiatan praktik tataboga</h3>
             </center>
         </div>
         <div class="mySlides fade">
             <center>
-            <img src="kajian.jpeg" style="width: 50%;">
+            <img src="../images/kajian.jpeg" style="width: 50%;">
             <h3 align="center">Kajian Hari Jumat</h3>
             </center>
         </div>
         <div class="mySlides fade">
             <center>
-            <img src="doa keluar WC.jpeg" style="width: 50%;">
+            <img src="../images/doa keluar WC.jpeg" style="width: 50%;">
             <h3 align="center">Penerapan doa keluar WC</h3>
             </center>
         </div>
         <div class="mySlides fade">
             <center>
-            <img src="senam.jpeg" style="width: 50%;">
+            <img src="../images/senam.jpeg" style="width: 50%;">
             <h3 align="center">Kegiatan Senam Pagi</h3>
             </center>
         </div>
         <div class="mySlides fade">
             <center>
-            <img src="seni tari.jpeg" style="width: 50%;">
+            <img src="../images/seni tari.jpeg" style="width: 50%;">
             <h3 align="center">Penampilan Seni Tari</h3>
             </center>
         </div>
         <div class="mySlides fade">
             <center>
-            <img src="tugas kelompok.jpeg" style="width: 50%;" >
+            <img src="../images/tugas kelompok.jpeg" style="width: 50%;" >
             <h3 align="center">Kegiatan tugas kelompok</h3>
             </center>
         </div>
@@ -186,5 +179,5 @@
          Tutup ⋅ Buka Senin-Sabtu pukul 08.00-selesai<br></p>
     </footer>
 </body>
-<script src="slide.js"></script>
+<script src="../js/slide.js"></script>
 </html>

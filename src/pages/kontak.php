@@ -4,25 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pendaftaran PAUD MUTIARA</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../styles/style.css">
 </head>
 <body>
     <header>
         <h1>PAUD MUTIARA</h1>
         <p>Pendidikan Anak Usia Dini</p>
     </header>
-    <nav>
-        <ul>
-            <li><a href="index.html">Beranda</a></li>
-            <li><a href="galeri.html">Galeri</a></li>
-            <li><a href="fasilitas.html">fasilitas</a></li>
-            <li><a href="kontak.html">Kontak</a></li>
-        </ul>
-    </nav>
+    <?php include('../components/navbar.php');?>
     
     <div class="container">
         <!--Form Login-->
-        <form action="login.php" method="post">
+        <form action="../php/login.php" method="post">
             <h2>Login</h2>
             <Label for="email">Email:</Label>
             <input type="email" name="email" required>

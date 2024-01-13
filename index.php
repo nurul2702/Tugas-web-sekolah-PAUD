@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,23 +8,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PAUD MUTIARA</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./src/styles/style.css">
 </head>
-
 <body>
     <header>
-        <img src="img_logo_paud.png" class="image">
+        <img src="./src/images/img_logo_paud.png" class="image">
         <h1>PAUD MUTIARA</h1>
         <p>Pendidikan Anak Usia Dini</p>
     </header>
-    <nav>
-        <ul>
-            <li><a href="index.html">Beranda</a></li>
-            <li><a href="galeri.html">Galeri</a></li>
-            <li><a href="fasilitas.html">fasilitas</a></li>
-            <li><a href="kontak.html">Kontak</a></li>
-        </ul>
-    </nav>
+    <?php include('./src/components/navbar.php');?>
     <main>
         <section>
             
