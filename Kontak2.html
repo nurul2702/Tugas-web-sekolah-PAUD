@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pendaftaran PAUD MUTIARA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>PAUD MUTIARA</h1>
+        <p>Pendidikan Anak Usia Dini</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="galeri.html">Galeri</a></li>
+            <li><a href="fasilitas.html">fasilitas</a></li>
+            <li><a href="kontak.html">Kontak</a></li>
+        </ul>
+    </nav>
+    
+    <div class="container">
+        <!--Form Pendaftaran-->
+        <form action="process.php" method="post">
+            <h2> Formulir Pendaftaran Siswa PAUD</h2>
+            <label for="nama">Nama:</label>
+            <input type="text" name="nama" placeholder="Masukkan nama lengkap" required>
+
+            <label for="usia">Usia:</label>
+            <input type="number" name="usia" placeholder="Masukkan usia anak" 
+            required>
+
+            <label for="jenis_kelamin">Jenis_kelamin:</label>
+            <input type="text" name="jeniskelamin" placeholder="Masukkan jenis kelamin anak" required>
+           
+            
+            <label for="alamat">Alamat:</label>
+            <textarea name="alamat" placeholder="Masukkan alamat lengkap" required></textarea>
+
+            <label for="no_telp">No Telp</label>
+            <input type="tel" name="no_telp" pattern="[0-9]{10,15}" placeholder="Masukkan nomor telepon"  required>
+
+            <button type="submit" name="submit">Daftar</button>
+        </form>
+    </div>
+
+    <main>
+        
+    </main>
+    <footer>
+        <p>&copy; 2023 Sekolah PAUD MUTIARA<br>
+         Jam: <br>
+            Tutup ⋅ Buka Senin-Sabtu pukul 08.00-selesai<br></p>
+    </footer>
+</body>
+</html>
